@@ -1,0 +1,37 @@
+JAVASCRIPT
+
+
+Program : program is the set of instruction that perform specifc task.
+
+software : software is the set of programs.
+
+Programming Language : Those language perform any task and Logical things is called are programming language.
+
+Markup language : Those languages create structure of any webpage that language is called Markup language.
+
+
+
+
+
+                         ---------------------------- How its works----------------------------------
+
+  
+                         HTTP  request                                 HTML,CSS,JS responce                             
+
+                            |                                              |
+
+                       Browser----------------->Server------------------------>Browser    
+
+
+
+
+                       -------------------Client side language--------------------------
+
+
+
+
+   ----------------------------------------------javaScript----------------------------------------------
+
+
+
+   javaScript                         
