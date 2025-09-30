@@ -16,7 +16,7 @@ Markup language : Those languages create structure of any webpage that language 
                          ---------------------------- How its works----------------------------------
 
   
-                         HTTP  request                                 HTML,CSS,JS responce                             
+                         HTTP  request                         HTML,CSS ,JS responce                               
 
                             |                                              |
 
@@ -34,4 +34,83 @@ Markup language : Those languages create structure of any webpage that language 
 
 
 
-   javaScript                         
+   
+   
+   
+     
+   javaScript :- javaScript is a high lavel Client intrepted programming Language which is developed Brendan Eich in 1995.
+                 javaScript using three technology's world wide web , HTML ,CSS . 
+                 It is using interpeter translater for run program line by line . javaScript is provided to create static webpage into dynamic webpage .
+
+
+
+      Dynamic :- dynamic means Things can change while the program is running .           
+
+
+      Client side :- Those code excute in your device rather than Server .
+                     
+
+      JS Engine :- JS engine is a software that execute js code into machine instruction in your device .
+
+                   Populer Browser                             their engine 
+
+                   Chrome ,Brave ,Opera                        v8 
+                   MS Edge ,   
+
+                   Mozila FireFox                              SpiderMonkey 
+        
+                   Apple Safari                                javaScriptCore
+
+
+
+
+
+
+   Key characteristics:-
+         
+         1. Dynamic and Interactive Web Pages:  JavaScript enables the creation of dynamic and interactive elements on web pages that cannot be achieved with HTML and CSS alone. This includes animations, interactive forms, dynamic content updates, and more.
+
+         2. Client-Side Scripting:  Historically, JavaScript was predominantly used as a client-side scripting language, meaning it runs directly within a user's web browser,
+
+         3.  Cross-Platform: JavaScript is a cross-platform language, meaning code written in JavaScript can run on various operating systems and environments, including web browsers, servers, and even mobile applications (with frameworks like React Native).
+
+         4. Interpreted and Just-in-Time Compiled:  JavaScript is typically interpreted, meaning the code is executed line by line by a JavaScript engine (like V8 in Chrome). Modern JavaScript engines also employ just-in-time (JIT) compilation for performance optimization.
+
+
+
+
+    Variables:- It is the container or memory block which can store multiple type of data that is called Variables.
+
+    Variables declare ruls and regulations - 
+      
+       1. Reserve keyword you can't use as a variable . 
+       2. The first character in variable it can't be a number. 
+       3. Space is not allow in the Variable.
+       4. you can't use special type of character in variable only underscore (_) is allow to use.
+       5. case sensative 'name' ,'Name' are two differnt variable .
+
+
+
+   Types of variable :- 
+             
+             1. var
+             2. let
+             3. const
+
+            var :- usimg var in variable you can reassining and redeclaring .
+
+            let :- using let in variable you can reassining but did not redeclaring .
+
+            const :- using const in variable you cannot reassining and redeclaring .
+
+
+
+
+    keyword :- Reserve words that have special meaning and behaviour . In javaScript 63 types of keywords. in that keyword you cannot use 
+               can't use as a variable , function and identifer .
+
+      
+   
+   
+   
+                               

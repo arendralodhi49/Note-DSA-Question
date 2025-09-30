@@ -1,0 +1,183 @@
+
+
+
+                                                 DBMS
+
+                                                          
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ SQL :-  SQL stands for Structured query language . which is used to intract with relational database . 
+         It allows to users to store ,retrive, update and manage data efficently through simple commands. 
+
+
+
+
+Types of  SQL Commands
+There are 4 types of commands 
+DDL (Data Definition Language)       DML(Data Manipulation Language)     DCL(Data Definition Language)     TCL(Transition Control Language)
+1. Create                            1. Insert                           1. Grant                           1. Commit
+2. Alter                             2. Select(Retrieve)                 2. Revoke                          2. Rollback
+3. Drop                              3. Update
+4. Truncate                          4. Delete
+
+
+DDL (Data Definition Language)   
+    
+        Create :- Create new database and table objects.
+        Alter  :- Modify existing database and table objects.
+        Drop   :- Delete exists database and table objects.
+        Truncate  :- A Remove all rows from the table objects.
+
+ DML(Data Manipulation Language)
+
+       insert :- Create new rows in a table. 
+       Select :- Retrieve data from the table.
+       Update :- Modify data in the table.
+       Delete :- Delete data in the table.
+
+DCL(Data Definition Language)    
+  
+       Grant :- provides access rights on database.      
+       Revoke :- Withdrawn access rights in databases.
+
+ 
+TCL(Transition Control Language)
+
+       Commit :- A save database changes and end Transition.
+       Rollback :- Undo changes that or not Commit and in transition.
+
+
+
+
+
+
+Cardinality of Relationship :- Cardinality in database relationship reverse to the number operands of and entity in a relationship another entity.  
+ 
+    There are 4 type .
+        
+       one-to-one relationship
+       one-to-many relationship
+       many-to-one relationship
+       many-to-many relationship
+
+
+
+
+
+1)   DDL
+a)   create :-
+Create Database:- 
+syntax:-
+      CREATE DATABASE database-name; 
+        Ex-  CREATE DATABASE student-data;
+
+Create Table:-
+syntax:-
+      CREATE TABLE table-name(col-name1 DATATYPE(length),col-name2 DATATYPE(length),col-name3 DATATYPE(length));
+        Ex-  CREATE TABLE student(Sid INTEGER(5),name VARCHAR(22), source VARCHAR(22));
+
+
+
+
+b)TRUNCATE :-
+
+TRUNCATE TABLE:-
+
+syntax:-
+           TRUNCATE TABLE table-name;
+              Ex-  TRUNCATE TABLE student;
+
+
+c)DROP :-
+ DROP database
+ Syntax:-
+           DROP DATABASE database-name; 
+            Ex-   DROP DATABASE student;
+
+ DROP Table
+ Syntax:-  DROP TABLE table-name;
+             Ex-  DROP TABLE student;
+
+
+
+
+d)ALTER :-
+          ADD new column :
+             SYNTEX:- ALTER TABLE table-name ADD new-col DATATYPE(LENGTH);
+             Ex: ALTER TABLE student ADD s-name VARCHAR(32);
+        
+             SYNTEX:- ALTER TABLE table-name ADD new-col DATATYPE(LENGTH) AFTER col-name;
+             Ex: ALTER TABLE student ADD s-name VARCHAR(32) AFTER s-id;
+
+          In table DROP column :
+            SYNTEX:- ALTER TABLE table-name DROP col-name;
+            Ex: ALTER TABLE student DROP s-name;
+
+          MODIFY datatype:
+            SYNTEX:-ALTER TABLE table-name MODIFY col-name DATATYPE(length);
+            Ex: ALTER TABLE student MODIFY s-name INTEGER(4);
+          
+          CHANGE column:
+             SYNTEX:-ALTER TABLE table-name CHANGE col-old col-new VARCHAR(LENGTH);
+             EX: ALTER TABLE student CHANGE s-id s-name VARCHAR(34);
+         
+          RENAME table-name:
+             SYNTEX:-ALTER TABLE table-name RENAME col-old col-new;
+             SYNTEX:-ALTER TABLE student  RENAME s-id s-name;
+             
+      NOTE:-You can manually change the database name.
+               
+            
+
+------------------------------------------------------------------------------------------------------------------------------------------
+SQL Constrants:-
+    
+   1.  Not null
+   2.  Unique
+   3.  primary key
+   4.  Auto-Increment
+   5.  Check
+   6.  Default
+   7.  forigen key
+
+
+
+1. Not null 
+         SYNTEX - CREATE TABLE student(name VARCHAR(44),  id INTEGER(6) Not null ,  cource VARCHAR(45));
+         
+2. Unique 
+        SYNTEX - CREATE TABLE student(name VARCHAR(56), id INTEGER(7) Not null Unique,cource VARCHAR(45));
+
+3. Primery key
+        SYNTEX -  CREATE TABLE student(name VARCHAR(56) , id INTEGER(7) Not null Unique,cource VARCHAR(45),roll_no INTEGER(7) PRIMERY KEY );   
+
+4. Auto-Increment - 
+        SYNTEX -  CREATE TABLE student(name VARCHAR(56), id INTEGER(7) Not null Auto-Increment ,cource VARCHAR(45));                    
+        
+ ---------------------------------------------------------------------------------------------------------------------------------------
+
+DML
+
+Commands:-
+            Insert
+            Delete
+            Update
+            Select
+
+
+
+Insert :- using this command for insert data in table .
+
+      
+
+       SYNTEX:- INSERT * INTO table_name VALUES ("col1", "col2","col3"..........);
+       
+ 
+ 
+
+
+
+
+
+
+
